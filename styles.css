@@ -1,0 +1,65 @@
+body {
+  display: grid;
+    place-items: center; 
+    background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTVjdjVhbGh0cTlhcnRsbDlycDA2Yno1bTRibHdxZzR4cGcwbnpiZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bAmpRgACntwA0/giphy.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;direction: rtl;
+    font-family: "Hebrew Sevilha", Times, serif;	
+}
+
+img {
+  border: 10px solid #ddd;
+  border-radius: 30px;
+  padding: 5px;
+  width: 300px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+div { 
+    background-color:#5D0E41;color:#FF204E;
+   
+
+}
+
+
+.playlists { 
+    background-color:#10375C;color:#FCF596;
+   
+}
+
+.audio-player {
+            margin: 20px;
+        }
+
+        audio {
+            margin: 10px 0;
+            width: 300px;
+        }
+		
+		
+		ul.styled-list {
+            list-style-type: square; /* Custom bullet points */
+            padding: 20px;
+            border: 2px solid #333; /* Box border */
+            background-color: #FCF596; /* Light background */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            max-width: 300px; /* Limit width */
+            margin: 20px auto; /* Center on the page */
+            font-size: 20px;
+        }
+
+        li {
+            margin-bottom: 10px; /* Space between items */
+        } 
+			
+			
+
+
+
